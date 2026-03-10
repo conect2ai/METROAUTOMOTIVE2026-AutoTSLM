@@ -1,19 +1,19 @@
 {
   "n": 39,
-  "token_f1_mean": 0.4600278204803389,
-  "rouge_l_f1_mean": 0.2390687616769641,
+  "token_f1_mean": 0.44875430411634953,
+  "rouge_l_f1_mean": 0.23266930007519185,
   "exact_match_mean": 0.0,
-  "seq_sim_mean": 0.061916597988147616,
+  "seq_sim_mean": 0.06752889387562841,
   "accuracy": 1.0,
   "macro_f1": 0.5,
   "validity_metrics": {
     "has_answer_tag_rate": 1.0,
     "valid_label_rate": 1.0,
-    "mean_non_ascii_ratio": 0.0003771311735374619,
-    "mean_prediction_length": 581.1794871794872
+    "mean_non_ascii_ratio": 0.0003628706343129038,
+    "mean_prediction_length": 586.7179487179487
   },
   "advanced_metrics": {
-    "bertscore_f1_mean": 0.8906420881931598,
-    "embedding_cosine_mean": 0.7909215703988687
+    "bertscore_f1_mean": 0.8908359759893173,
+    "embedding_cosine_mean": 0.7976571107522036
   }
 }

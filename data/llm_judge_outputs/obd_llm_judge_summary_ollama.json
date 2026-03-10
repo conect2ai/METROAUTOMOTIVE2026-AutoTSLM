@@ -1,58 +1,12 @@
 {
   "judge_backend": "ollama",
   "judge_model": "qwen2.5:7b-instruct",
-  "n_examples": 39,
-  "n_responses": 156,
-  "system_summary": [
-    {
-      "system_name": "llama_soft_prompt",
-      "label_correctness": 4.897435897435898,
-      "signal_grounding": 4.871794871794871,
-      "reasoning_quality": 4.871794871794871,
-      "coverage": 4.871794871794871,
-      "format_compliance": 5.0,
-      "text_quality": 4.897435897435898,
-      "overall_score": 9.23076923076923,
-      "weighted_score": 4.894871794871795
-    },
-    {
-      "system_name": "llama_flamingo",
-      "label_correctness": 4.871794871794871,
-      "signal_grounding": 4.82051282051282,
-      "reasoning_quality": 4.794871794871795,
-      "coverage": 4.794871794871795,
-      "format_compliance": 5.0,
-      "text_quality": 4.923076923076923,
-      "overall_score": 9.025641025641026,
-      "weighted_score": 4.856410256410257
-    },
-    {
-      "system_name": "gemma_flamingo",
-      "label_correctness": 4.871794871794871,
-      "signal_grounding": 4.564102564102564,
-      "reasoning_quality": 4.564102564102564,
-      "coverage": 4.564102564102564,
-      "format_compliance": 5.0,
-      "text_quality": 4.743589743589744,
-      "overall_score": 7.384615384615385,
-      "weighted_score": 4.717948717948718
-    },
-    {
-      "system_name": "gemma_soft_prompt",
-      "label_correctness": 2.58974358974359,
-      "signal_grounding": 2.717948717948718,
-      "reasoning_quality": 2.5641025641025643,
-      "coverage": 2.6923076923076925,
-      "format_compliance": 3.051282051282051,
-      "text_quality": 2.6923076923076925,
-      "overall_score": 4.923076923076923,
-      "weighted_score": 2.6769230769230767
-    }
-  ],
-  "winner_counts": {
-    "gemma_flamingo": 18,
-    "llama_soft_prompt": 12,
-    "gemma_soft_prompt": 7,
-    "llama_flamingo": 2
-  }
+  "n_examples_scored": 39,
+  "n_responses_scored": 139,
+  "systems_seen": [
+    "gemma_flamingo",
+    "gemma_soft_prompt",
+    "llama_flamingo",
+    "llama_soft_prompt"
+  ]
 }

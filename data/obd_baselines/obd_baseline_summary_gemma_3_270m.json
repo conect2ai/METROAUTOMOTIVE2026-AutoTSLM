@@ -1,15 +1,25 @@
 {
-  "n_samples": 39,
-  "token_f1_mean": 0.08233550522688911,
-  "rouge_l_f1_mean": 0.07130861439688944,
+  "n": 39,
+  "token_f1_mean": 0.08171135756556175,
+  "rouge_l_f1_mean": 0.07085848652645661,
   "exact_match_mean": 0.0,
-  "seq_sim_mean": 0.019358174395912378,
+  "seq_sim_mean": 0.01867269604717402,
   "accuracy": 0.0,
   "macro_f1": 0.0,
-  "has_answer_tag_rate": 0.0,
-  "valid_label_rate": 0.0,
-  "mean_prediction_length": 377.28205128205127,
-  "mean_non_ascii_ratio": 0.0,
+  "validity_metrics": {
+    "has_answer_tag_rate": 0.0,
+    "valid_label_rate": 0.0,
+    "mean_prediction_length": 397.20512820512823,
+    "mean_non_ascii_ratio": 0.0
+  },
+  "advanced_metrics": {
+    "bertscore_f1_mean": 0.7844843146128532,
+    "embedding_cosine_mean": 0.4097586465187562
+  },
   "model_name": "google/gemma-3-270m",
-  "backend": "hf"
+  "backend": "hf",
+  "system_name": "gemma_3_270m_baseline",
+  "display_name": "gemma-3-270m baseline",
+  "family": "Gemma 3 270M",
+  "group": "baseline"
 }
