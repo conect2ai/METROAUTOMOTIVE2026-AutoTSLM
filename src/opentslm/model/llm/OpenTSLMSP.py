@@ -357,10 +357,11 @@ class OpenTSLMSP(TimeSeriesLLM):
         inputs_embeds = torch.cat([inputs_embeds, ans_emb], dim=1)  # [B, L+A, H]
         attention_mask = torch.cat([attention_mask, ans_mask], dim=1)  # [B, L+A]
 
-        # labels: only on the answer tokens
+        # labels: supervise only real answer tokens, not right-padding.
         total_len = attention_mask.size(1)
         labels = torch.full((B, total_len), -100, device=self.device, dtype=torch.long)
-        labels[:, L:] = ans_ids
+        answer_labels = ans_ids.masked_fill(ans_mask == 0, -100)
+        labels[:, L:] = answer_labels
 
         outputs = self.llm(
             inputs_embeds=inputs_embeds,
