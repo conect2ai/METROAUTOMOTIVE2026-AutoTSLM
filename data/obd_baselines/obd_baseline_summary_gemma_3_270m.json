@@ -1,0 +1,15 @@
+{
+  "n_samples": 39,
+  "token_f1_mean": 0.08233550522688911,
+  "rouge_l_f1_mean": 0.07130861439688944,
+  "exact_match_mean": 0.0,
+  "seq_sim_mean": 0.019358174395912378,
+  "accuracy": 0.0,
+  "macro_f1": 0.0,
+  "has_answer_tag_rate": 0.0,
+  "valid_label_rate": 0.0,
+  "mean_prediction_length": 377.28205128205127,
+  "mean_non_ascii_ratio": 0.0,
+  "model_name": "google/gemma-3-270m",
+  "backend": "hf"
+}
