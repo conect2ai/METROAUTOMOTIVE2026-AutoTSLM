@@ -1,0 +1,41 @@
+# Recommended Python: 3.11
+#
+# This file groups the packages needed for:
+# - notebook-based training
+# - baseline evaluation and plotting
+# - Soft Prompt and Flamingo experiments
+# - local analysis of saved results
+#
+# Notes:
+# - Install a PyTorch build compatible with your machine first if you need
+#   CUDA, ROCm, MPS, or a specific CPU wheel.
+# - `requirements.rpi.inference.txt` remains the lean option for Raspberry Pi
+#   inference-only runs.
+
+numpy>=1.26,<3
+pandas>=2.2,<3
+matplotlib>=3.8,<4
+seaborn>=0.13,<1
+tqdm>=4.66,<5
+pillow>=10,<12
+psutil>=5.9,<8
+
+torch>=2.3,<3
+transformers>=4.45,<5
+datasets>=2.20,<4
+huggingface-hub>=0.24,<1
+sentencepiece>=0.1.99,<0.3
+peft>=0.12,<0.18
+
+einops>=0.7,<1
+einops-exts>=0.0.4,<0.1
+open-clip-torch>=2.24,<3
+
+bert-score>=0.3.13,<0.4
+sentence-transformers>=3,<4
+
+jupyter>=1,<2
+ipykernel>=6,<7
+
+# Optional but used by some profiling scripts.
+pynvml>=11,<13

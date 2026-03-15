@@ -1,0 +1,21 @@
+# Recommended Python: 3.11
+#
+# Notes:
+# - Install a CPU build of PyTorch compatible with your Raspberry Pi OS first.
+# - This file covers the Python packages used by the inference scripts.
+# - For soft-prompt inference, the common section plus peft is enough.
+# - For Flamingo inference, install the common section plus the Flamingo extras.
+
+numpy>=1.26,<3
+psutil>=5.9,<8
+sentencepiece>=0.1.99,<0.3
+transformers>=4.45,<5
+
+# Required for soft-prompt checkpoints with LoRA adapters.
+peft>=0.12,<0.18
+
+# Flamingo extras
+einops>=0.7,<1
+einops-exts>=0.0.4,<0.1
+pillow>=10,<12
+open-clip-torch>=2.24,<3
