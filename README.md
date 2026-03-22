@@ -13,7 +13,7 @@
 ![PyTorch](https://img.shields.io/badge/Framework-PyTorch-EE4C2C.svg)
 ![License MIT](https://img.shields.io/badge/License-MIT-green.svg)
 
-### ✍🏾 Authors: [Morsinaldo Medeiros](https://github.com/Morsinaldo), [Marianne Silva](https://github.com/MarianneDiniz), and [Ivanovitch Silva](https://github.com/ivanovitchm)
+### ✍🏾 Authors: [Morsinaldo Medeiros](https://github.com/Morsinaldo), [Marianne Silva](https://github.com/MarianneDiniz), [Dennis Brandão](https://scholar.google.com/citations?user=OxSKwvEAAAAJ&hl=pt-BR), and [Ivanovitch Silva](https://github.com/ivanovitchm)
 
 
 ## 📄 Abstract / Overview
