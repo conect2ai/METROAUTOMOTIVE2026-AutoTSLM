@@ -6,7 +6,7 @@
 
 &nbsp;
 
-# AutoTSLM: Reasoning over OBD-II Telemetry for Driver Behavior Analysis using LLMs
+# AutoTSLM: Interpretable Driver Behavior Analysis Using Multimodal Time-Series Language Models on Automotive Telemetry
 
 ![Python 3.11](https://img.shields.io/badge/Python-3.11-blue.svg)
 ![Raspberry Pi](https://img.shields.io/badge/Edge-Raspberry%20Pi-C51A4A.svg)
@@ -18,8 +18,7 @@
 
 ## 📄 Abstract / Overview
 
-Understanding driving behavior from vehicle telemetry remains a challenging task due to the temporal complexity of sensor signals and the limited interpretability of conventional machine learning approaches. Recent advances in large language models have shown strong capabilities for reasoning and explanation generation, opening new possibilities for analyzing time-series data. In this work, we investigate the use of Time-Series Language Models (TSLMs) for reasoning over automotive telemetry and propose *AutoTSLM*, a framework that adapts the OpenTSLM paradigm to process multivariate OBD-II time-series windows. The proposed approach combines a temporal encoder with pretrained language models through multimodal alignment mechanisms, including Soft Prompt conditioning and Flamingo-style cross-attention, enabling the model to generate both driver behavior classifications and natural-language explanations grounded in telemetry signals. Experimental results show that explicitly integrating time-series representations substantially improves performance compared with text-only prompting baselines. Furthermore, deployment experiments on a Raspberry Pi demonstrate that lightweight model configurations can provide a practical balance between reasoning capability and computational efficiency for edge inference.
-
+Conventional machine learning approaches for driver behavior analysis achieve high predictive performance but lack interpretability, which limits their adoption in safety-critical automotive applications. This study investigates Time-Series Language Models (TSLMs) as a unified framework for jointly performing classification and reasoning over vehicle telemetry data. AutoTSLM, a multimodal architecture, is introduced to process multivariate OBD-II time-series windows and align them with pretrained language models using Soft Prompt and Flamingo-style cross-attention mechanisms. This design enables the generation of natural-language explanations grounded in sensor dynamics alongside driver behavior predictions. Experimental results indicate that multimodal integration of time-series signals significantly outperforms text-only baselines in both classification accuracy and explanation quality. Additionally, deployment on a Raspberry Pi 5 demonstrates the feasibility of executing TSLM-based reasoning in resource-constrained edge environments. These findings underscore the potential of lightweight multimodal language models to deliver interpretable and practical solutions for intelligent vehicle monitoring.
 
 
 ## 📂 Repository Structure
