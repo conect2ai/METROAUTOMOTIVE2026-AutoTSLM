@@ -102,8 +102,7 @@ def call_openai(prompt: str, image_path: Path, model: str, temperature: float) -
     except Exception as exc:
         raise RuntimeError("openai package not installed. Install with: pip install openai") from exc
 
-    # api_key = os.getenv("OPENAI_API_KEY")
-    api_key = "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"
+    api_key = os.getenv("OPENAI_API_KEY")
     if not api_key:
         raise RuntimeError("OPENAI_API_KEY not set")
 
