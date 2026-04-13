@@ -1,0 +1,57 @@
+{
+  "judge_backend": "openai",
+  "judge_model": "gpt-4o-mini",
+  "n_examples": 63,
+  "n_responses": 156,
+  "system_summary": [
+    {
+      "system_name": "llama_flamingo",
+      "label_correctness": 5.0,
+      "signal_grounding": 5.0,
+      "reasoning_quality": 5.0,
+      "coverage": 5.0,
+      "format_compliance": 5.0,
+      "text_quality": 5.0,
+      "overall_score": 10.0,
+      "weighted_score": 5.0
+    },
+    {
+      "system_name": "llama_soft_prompt",
+      "label_correctness": 5.0,
+      "signal_grounding": 5.0,
+      "reasoning_quality": 5.0,
+      "coverage": 5.0,
+      "format_compliance": 5.0,
+      "text_quality": 5.0,
+      "overall_score": 10.0,
+      "weighted_score": 5.0
+    },
+    {
+      "system_name": "gemma_flamingo",
+      "label_correctness": 4.871794871794871,
+      "signal_grounding": 4.9743589743589745,
+      "reasoning_quality": 4.948717948717949,
+      "coverage": 4.9743589743589745,
+      "format_compliance": 5.0,
+      "text_quality": 5.0,
+      "overall_score": 9.897435897435898,
+      "weighted_score": 4.943589743589744
+    },
+    {
+      "system_name": "gemma_soft_prompt",
+      "label_correctness": 0.0,
+      "signal_grounding": 0.0,
+      "reasoning_quality": 0.0,
+      "coverage": 0.0,
+      "format_compliance": 0.0,
+      "text_quality": 0.0,
+      "overall_score": 0.0,
+      "weighted_score": 0.0
+    }
+  ],
+  "winner_counts": {
+    "gemma_flamingo": 38,
+    "gemma_soft_prompt": 24,
+    "llama_soft_prompt": 1
+  }
+}

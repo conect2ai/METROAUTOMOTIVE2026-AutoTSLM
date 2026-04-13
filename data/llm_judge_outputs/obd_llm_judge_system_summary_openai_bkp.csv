@@ -1,0 +1,5 @@
+system_name,label_correctness,signal_grounding,reasoning_quality,coverage,format_compliance,text_quality,overall_score,weighted_score
+llama_flamingo,5.0,5.0,5.0,5.0,5.0,5.0,10.0,30.0
+llama_soft_prompt,5.0,5.0,5.0,5.0,5.0,5.0,10.0,30.0
+gemma_flamingo,4.871794871794871,4.9743589743589745,4.948717948717949,4.9743589743589745,5.0,5.0,9.897435897435898,29.76923076923077
+gemma_soft_prompt,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
